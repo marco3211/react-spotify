@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const TOKEN = 'BQAnA_ensWvh4tGue7326wAuSQ1UBrEFSQ54UvynJVRvh3ZEA-X0_GK_1Dx9oD25h6-phnijYiejclCDGtMzELKWOtMysZcF-DPiNcHjLkauMBVjML3CAEbyf4SavnAgMV9_IpBBCvNBcSpTGfqqky0aOTjGu8SIg1Y';
+const TOKEN = 'BQBjIWcneo9HvZCpg9x_tr11zmCkfjL4lkuvLpxWDROo2d2gwRWhdJTsefwm9f7VEskbzR7_u1fC6qNKa4E5dDkfVoeDsU6qzsp1MwVLDUPoaS0hGYJyrLSlnPVv3XrO3iv1dBEShg7Dpxcbm3hGIvwxxpZqJEwISD4';
 const ROOT_URL = 'https://api.spotify.com/v1/search';
 
 const config = { headers: { Authorization: `Bearer ${TOKEN}` }};

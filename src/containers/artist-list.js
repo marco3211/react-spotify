@@ -9,11 +9,14 @@ class ArtistList extends Component {
   }
 
   renderArtist(data = '') {
-    let name = data[1].name;
-    let id = data[1].id;
+    const res = data[1];
+    const name = res.name;
+    const id = res.id;
+    const img = (res.images).length > 1 ? res.images[1].url : 'https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg';
 
     return (
       <div key={id}>
+        <img src={img} width={200} />
         <div>{name}</div>
       </div>
     );
