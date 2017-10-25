@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const CLIENT_ID = 'BQCfWeCTmPM2IF4TugVmaMzWJvDLJR3S9RM8d-9nlJEKNyxLY-yWkVV9kkf7ZoFp03uQcFQxis4xA7Tq_-Dszk3fQT3SaGP3r8ZmOKfPXFiQ7exr-sWc2UC88Za-AIrkpaLYYrWCW_qzfuwvyVk0IL9tZfug2pOWFnw';
+const TOKEN = 'BQAnA_ensWvh4tGue7326wAuSQ1UBrEFSQ54UvynJVRvh3ZEA-X0_GK_1Dx9oD25h6-phnijYiejclCDGtMzELKWOtMysZcF-DPiNcHjLkauMBVjML3CAEbyf4SavnAgMV9_IpBBCvNBcSpTGfqqky0aOTjGu8SIg1Y';
 const ROOT_URL = 'https://api.spotify.com/v1/search';
 
-const config = { headers: { Authorization: `Bearer ${CLIENT_ID}` }};
+const config = { headers: { Authorization: `Bearer ${TOKEN}` }};
 
 export const FETCH_ARTIST = 'FETCH_ARTIST';
 
