@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 class ArtistList extends Component {
@@ -18,6 +19,7 @@ class ArtistList extends Component {
       <div key={id}>
         <img src={img} width={200} />
         <div>{name}</div>
+        <Link to={{ pathname: `artist/${name}/${id}` }}>View Artist</Link>
       </div>
     );
   }
